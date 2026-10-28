@@ -194,14 +194,23 @@ Conclusion
 
 This Week 1 project provides a foundation for my cybersecurity learning journey with Networkwalks.
 By configuring the virtual machine environment, documenting the network settings, and checking connectivity, I am building a better understanding of the systems and networking concepts required for practical cybersecurity work.
+
 The goal is not just to have Kali Linux running, but to understand how the environment is configured, how to verify that it works, and how to maintain a reliable lab for future exercises.
 This documentation will serve as a reference as I continue learning and working on more practical cybersecurity projects.
+
 References
+
 Networkwalks Week 1 Project Module 1: Lab Setup VirtualBox and Kali Linux.
+
 Kali Linux Official Website: https://kali.org/get-kali
+
 Oracle VirtualBox: https://virtualbox.org/wiki/Downloads
+
 7-Zip Official Website: https://7-zip.org/download.html
 
+
 Project: Week 1  Cybersecurity & Pentesting Lab Setup
+
 Program: Networkwalks Cybersecurity Internship, Batch B082
+
 Author: Victor Ebubechukwu
