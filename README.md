@@ -75,7 +75,7 @@ I started by checking the existing VirtualBox installation and Kali Linux virtua
 Since Kali Linux was already installed on my system, I used the existing VM as the starting point rather than removing it and reinstalling the operating system unnecessarily.
 The existing installation was then used to carry out the required lab configuration.
 
-screenshots01-existing-kali-vm.png
+![Existing Kali VM](Images/screenshots01-existing-kali-vm.png)
 
 Step 2: Configure the NAT Network
 The next task was to configure the NAT Network in VirtualBox.
@@ -84,7 +84,7 @@ The required network prefix was set to:
 The network configuration was checked against the Networkwalks lab example. The DHCP setting should also be documented as it appears in the actual VirtualBox configuration.
 This network provides the foundation for connecting Kali Linux and any additional lab virtual machines.
 
-screenshots02-nat-network.png
+![NAT Network](Images/screenshots02-nat-network.png)
 
 Step 3: Configure the Kali Linux Network Adapter
 The Kali Linux virtual machine was configured to use the custom NAT Network rather than an unrelated network mode.
@@ -93,7 +93,7 @@ The network adapter was enabled.
 The attachment type was NAT Network.
 The selected network was NatNetwork.
 
-screenshots03-kali-network-adapter.png
+![Kali Network Adapter](Images/screenshots03-kali-network-adapter.png)
 
 Step 4: Configure the Kali Linux IP Address
 The required IPv4 address for Kali Linux is:
@@ -105,7 +105,7 @@ Gateway: 10.0.0.1
 DNS server: 8.8.8.8
 The settings were to be applied through Kali Linux's network connection configuration and checked after reconnecting the interface.
 
-screenshots04-kali-ip-configuration.png
+![Kali IP Configuration](Images/screenshots04-kali-ip-configuration.png)
 
 Step 5: Test Network Connectivity and DNS Resolution
 After configuring the network, connectivity was checked from the Kali Linux terminal.
@@ -113,7 +113,7 @@ The following command was used to perform the test.
 Test connectivity and DNS resolution:
 ping -c 4 google.com
 
-screenshots05-internet-connectivity-test.png
+![Internet Connectivity Test](Images/screenshots05-internet-connectivity-test.png)
 
 Step 6: Configure Clipboard and Drag-and-Drop
 The VirtualBox settings were configured to allow clipboard sharing and drag-and-drop between the host and guest operating systems.
@@ -121,7 +121,7 @@ The intended settings were:
 Shared Clipboard: Bidirectional
 Drag'n'Drop: Bidirectional
 
-screenshots06-clipboard-drag-drop.png
+![Clipboard Drag Drop](Images/screenshots06-clipboard-drag-drop.png)
 
 Step 7: Configure the Shared Downloads Folder
 The lab requires a shared folder from the Windows host to the Kali Linux virtual machine.
@@ -133,9 +133,9 @@ If the shared folder appears as sf_share_me its contents can be inspected with:
 ls -la /media/sf_share_me
 This configuration makes it possible to exchange files between the host and guest without manually downloading the same files twice.
 
-screenshots07-shared-folder-settings.png
+![Shared Folder Settings](Images/screenshots07-shared-folder-settings.png)
 
-screenshots08-shared-folder-verification.png
+![Shared Folder Verification](Images/screenshots08-shared-folder-verification.png)
 
 Step 8: Create a Virtual Machine Snapshot
 
@@ -148,7 +148,7 @@ Networkwalks-Week1-Lab-Setup
 
 The snapshot should be taken after the required configuration has been completed and verified.
 
-screenshots09-kali-snapshot.png
+![Kali Snapshot](Images/screenshots09-kali-snapshot.png)
 
 Challenges and Troubleshooting
 One of the important parts of setting up a virtual lab is ensuring that the network configuration is consistent across VirtualBox and the guest operating system.
