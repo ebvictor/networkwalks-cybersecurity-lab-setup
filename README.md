@@ -162,14 +162,23 @@ Lessons Learned
 This project helped me understand the importance of preparing a working environment before beginning practical cybersecurity exercises.
 
 Some of the key areas covered were:
+
 The role of VirtualBox in running multiple operating systems on one computer.
+
 The difference between a virtual network and an individual machine's IP address.
+
 How a NAT Network connects virtual machines and supports internet access.
+
 How to configure and verify a static IPv4 address.
+
 The difference between IP connectivity and DNS resolution.
+
 How shared folders and clipboard integration support a virtual lab.
+
 Why snapshots are useful for recovering a virtual machine's previous state.
+
 Why screenshots and clear documentation are important when presenting technical work.
+
 The project also reinforced the importance of checking each configuration rather than assuming that a setting works simply because it has been enabled.
 
 Conclusion
