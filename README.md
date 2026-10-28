@@ -74,6 +74,7 @@ Step 1: Check the Virtualization Environment
 I started by checking the existing VirtualBox installation and Kali Linux virtual machine.
 Since Kali Linux was already installed on my system, I used the existing VM as the starting point rather than removing it and reinstalling the operating system unnecessarily.
 The existing installation was then used to carry out the required lab configuration.
+
 screenshots01-existing-kali-vm.png
 
 Step 2: Configure the NAT Network
@@ -82,6 +83,7 @@ The required network prefix was set to:
 10.0.0.0/24
 The network configuration was checked against the Networkwalks lab example. The DHCP setting should also be documented as it appears in the actual VirtualBox configuration.
 This network provides the foundation for connecting Kali Linux and any additional lab virtual machines.
+
 screenshots02-nat-network.png
 
 Step 3: Configure the Kali Linux Network Adapter
@@ -90,6 +92,7 @@ The adapter configuration was checked to ensure that:
 The network adapter was enabled.
 The attachment type was NAT Network.
 The selected network was NatNetwork.
+
 screenshots03-kali-network-adapter.png
 
 Step 4: Configure the Kali Linux IP Address
@@ -101,6 +104,7 @@ Netmask: 24
 Gateway: 10.0.0.1
 DNS server: 8.8.8.8
 The settings were to be applied through Kali Linux's network connection configuration and checked after reconnecting the interface.
+
 screenshots04-kali-ip-configuration.png
 
 Step 5: Test Network Connectivity and DNS Resolution
@@ -108,6 +112,7 @@ After configuring the network, connectivity was checked from the Kali Linux term
 The following command was used to perform the test.
 Test connectivity and DNS resolution:
 ping -c 4 google.com
+
 screenshots05-internet-connectivity-test.png
 
 Step 6: Configure Clipboard and Drag-and-Drop
@@ -115,6 +120,7 @@ The VirtualBox settings were configured to allow clipboard sharing and drag-and-
 The intended settings were:
 Shared Clipboard: Bidirectional
 Drag'n'Drop: Bidirectional
+
 screenshots06-clipboard-drag-drop.png
 
 Step 7: Configure the Shared Downloads Folder
@@ -126,7 +132,9 @@ ls -la /media
 If the shared folder appears as sf_share_me its contents can be inspected with:
 ls -la /media/sf_share_me
 This configuration makes it possible to exchange files between the host and guest without manually downloading the same files twice.
+
 screenshots07-shared-folder-settings.png
+
 screenshots08-shared-folder-verification.png
 
 Step 8: Create a Virtual Machine Snapshot
@@ -139,6 +147,7 @@ snapshot name:
 Networkwalks-Week1-Lab-Setup
 
 The snapshot should be taken after the required configuration has been completed and verified.
+
 screenshots09-kali-snapshot.png
 
 Challenges and Troubleshooting
