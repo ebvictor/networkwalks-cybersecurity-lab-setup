@@ -8,15 +8,25 @@ The aim of this project is to set up and configure a virtual environment for cyb
 I worked with my existing Kali Linux virtual machine and focused on configuring the environment to meet the lab requirements. This included setting up a private NAT Network, configuring the required IP address, enabling communication between my host and virtual machine where needed, testing internet connectivity, and preparing a snapshot for recovery.
 This project also gave me the opportunity to understand how virtual machines communicate through a virtual network and why proper network configuration is important when building a cybersecurity lab.
 Project Objectives
+
 The main objectives of this project were to:
+
 Set up and configure a cybersecurity testing environment using VirtualBox.
+
 Configure a NAT Network with the subnet 10.0.0.0/24.
+
 Connect Kali Linux to the configured NAT Network.
+
 Configure the Kali Linux IP address to 10.0.0.2/24.
+
 Enable clipboard sharing and drag-and-drop between the host and guest where supported.
+
 Configure a shared Downloads folder between Windows and Kali Linux.
+
 Test internet connectivity and DNS resolution.
+
 Create a virtual machine snapshot to preserve the lab configuration.
+
 Document the setup process with screenshots and technical notes.
 
 System Specifications
