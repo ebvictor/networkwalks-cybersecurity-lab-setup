@@ -64,7 +64,7 @@ Step 1: Check the Virtualization Environment
 I started by checking the existing VirtualBox installation and Kali Linux virtual machine.
 Since Kali Linux was already installed on my system, I used the existing VM as the starting point rather than removing it and reinstalling the operating system unnecessarily.
 The existing installation was then used to carry out the required lab configuration.
-Existing Kali VM Images/screenshots01-existing-kali-vm.png
+screenshots01-existing-kali-vm.png
 
 Step 2: Configure the NAT Network
 The next task was to configure the NAT Network in VirtualBox.
