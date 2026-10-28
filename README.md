@@ -1,7 +1,10 @@
 Cybersecurity & Pentesting Lab Setup | Networkwalks Internship
+
 Project Overview
+
 This project documents my Week 1, Project Module 1 assignment for the Networkwalks Cybersecurity Program, Batch B082.
 The aim of this project is to set up and configure a virtual environment for cybersecurity learning and ethical hacking practice using Oracle VirtualBox and Kali Linux.
+
 I worked with my existing Kali Linux virtual machine and focused on configuring the environment to meet the lab requirements. This included setting up a private NAT Network, configuring the required IP address, enabling communication between my host and virtual machine where needed, testing internet connectivity, and preparing a snapshot for recovery.
 This project also gave me the opportunity to understand how virtual machines communicate through a virtual network and why proper network configuration is important when building a cybersecurity lab.
 Project Objectives
